@@ -39,7 +39,7 @@ public class Swagger2Config {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 //设置文档标题(API名称)
-                .title(projectName+"系统API")
+                .title(projectName+"API")
                 //文档描述
                 .description("专为"+projectName+"提供精准的api接口")
                 //服务条款URL
